@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "webpack --config webpack.config.js"
+      },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muratcan-yuksel/Snake.git"
@@ -21,6 +21,8 @@
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
   }
 }
